@@ -30,12 +30,20 @@ def test_speed():
     print("Time needed", time() - t)
 
 
+def test_read():
+    with open("input.txt", "w") as f:
+        f.write("1 5 4 3 2")
+    assert read() == [1, 5, 4, 3, 2]
+    print("Read test passed")
+
+
 def test():
     test_min_elem()
     test_max_elem()
     test_get_sum()
     test_get_prod()
     test_speed()
+    test_read()
     print("All test are passed")
 
 
