@@ -1,3 +1,3 @@
 # homework
 
-![example workflow](https://github.com/panasenkop/homework/actions/workflows/test.yml/badge.svg)
+![example workflow](https://github.com/panasenkop/homework/actions/workflows/main.yml/badge.svg)
