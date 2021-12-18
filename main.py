@@ -34,9 +34,13 @@ def get_prod(lst):
     return res
 
 
-def main():
+def read():
     with open("input.txt", "r") as f:
-        lst = list(map(int, f.readline().split()))
+        return list(map(int, f.readline().split()))
+
+
+def main():
+    lst = read()
 
     min = min_elem(lst)
     max = max_elem(lst)
